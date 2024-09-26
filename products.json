@@ -1,0 +1,220 @@
+[
+    {
+        "id": "1",
+        "name": "Henley Shirt",
+        "brand": "Adidas",
+        "price": 116,
+        "oldPrice": 200,
+        "discount": "25% off",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "images": ["assets/img/product-8-1.jpg", "assets/img/product-8-2.jpg"],
+        "colors": ["#f7c543", "#e63946", "#ffbf47", "#d5a6bd", "#00a878"],
+        "sizes": ["M", "L", "XL", "XXL"],
+        "sku": "FWM15VKT",
+        "tags": ["Clothing", "Shirts"],
+        "availability": 8,
+        "additionalInfo": {
+            "Stand Up": "35\"L x 24\"W 37-45\"H(front to back wheel)",
+            "Folded (w/o wheels)": "32.5\"L x 18.5\"W x 16.5\"H",
+            "Frame": "Aluminium",
+            "Weight(w/o wheels)": "20LBS",
+            "Weight Capacity": "60LBS"
+        },
+        "reviews": [
+            {
+                "name": "Jack Chans",
+                "avatar": "assets/img/avatar-1.jpg",
+                "rating": 5,
+                "comment": "Thank you very fast shipping.",
+                "date": "December 4,2020 at 3:12 pm"
+            },
+            {
+                "name": "Jacky Chan",
+                "avatar": "assets/img/avatar-2.jpg",
+                "rating": 4,
+                "comment": "Authentic and beautiful, Love these.",
+                "date": "December 4,2020 at 3:12 pm"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Running Shoes",
+        "brand": "Nike",
+        "price": 89,
+        "oldPrice": 150,
+        "discount": "40% off",
+        "description": "High-performance running shoes with excellent cushioning and support.",
+        "images": ["assets/img/product-2-1.jpg", "assets/img/product-2-2.jpg"],
+        "colors": ["#000000", "#ffffff", "#f28a2e"],
+        "sizes": ["8", "9", "10", "11", "12"],
+        "sku": "NIKE-RUNSHOE",
+        "tags": ["Footwear", "Shoes", "Running"],
+        "availability": 15,
+        "additionalInfo": {
+            "Material": "Mesh upper with synthetic overlays",
+            "Midsole": "Phylon foam",
+            "Outsole": "Rubber",
+            "Weight": "250g"
+        },
+        "reviews": [
+            {
+                "name": "Mike Jordan",
+                "avatar": "assets/img/avatar-3.jpg",
+                "rating": 5,
+                "comment": "Great shoes for running, super light and comfy.",
+                "date": "January 15,2021 at 2:30 pm"
+            },
+            {
+                "name": "Sarah Williams",
+                "avatar": "assets/img/avatar-4.jpg",
+                "rating": 4,
+                "comment": "Good support and fit well, but wish they had more color options.",
+                "date": "February 20,2021 at 4:45 pm"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Leather Jacket",
+        "brand": "Zara",
+        "price": 250,
+        "oldPrice": 350,
+        "discount": "30% off",
+        "description": "Stylish leather jacket with a modern fit and high-quality finish.",
+        "images": ["assets/img/product-3-1.jpg", "assets/img/product-3-2.jpg"],
+        "colors": ["#8b4513", "#000000"],
+        "sizes": ["S", "M", "L", "XL"],
+        "sku": "ZARA-LEATHER",
+        "tags": ["Clothing", "Jackets", "Leather"],
+        "availability": 5,
+        "additionalInfo": {
+            "Material": "100% Genuine Leather",
+            "Lining": "Polyester",
+            "Care": "Dry Clean Only"
+        },
+        "reviews": [
+            {
+                "name": "Emily Clark",
+                "avatar": "assets/img/avatar-5.jpg",
+                "rating": 5,
+                "comment": "Absolutely love this jacket, worth every penny!",
+                "date": "March 3,2021 at 1:15 pm"
+            },
+            {
+                "name": "James Bond",
+                "avatar": "assets/img/avatar-6.jpg",
+                "rating": 4,
+                "comment": "Looks great, but the fit is slightly snug.",
+                "date": "March 10,2021 at 11:00 am"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Classic Watch",
+        "brand": "Rolex",
+        "price": 8000,
+        "oldPrice": 10000,
+        "discount": "20% off",
+        "description": "Luxury watch with timeless design and precision craftsmanship.",
+        "images": ["assets/img/product-4-1.jpg", "assets/img/product-4-2.jpg"],
+        "colors": ["#ffd700", "#000000"],
+        "sizes": ["One Size"],
+        "sku": "ROLEX-CLASSIC",
+        "tags": ["Accessories", "Watches", "Luxury"],
+        "availability": 2,
+        "additionalInfo": {
+            "Case": "18ct Gold",
+            "Dial": "Champagne-colour",
+            "Bracelet": "Oyster, flat three-piece links",
+            "Movement": "Perpetual, mechanical, self-winding"
+        },
+        "reviews": [
+            {
+                "name": "John Wick",
+                "avatar": "assets/img/avatar-7.jpg",
+                "rating": 5,
+                "comment": "An iconic watch, the quality is unmatched.",
+                "date": "April 5,2021 at 9:45 am"
+            },
+            {
+                "name": "Ethan Hunt",
+                "avatar": "assets/img/avatar-8.jpg",
+                "rating": 5,
+                "comment": "Absolutely stunning, a must-have for any watch enthusiast.",
+                "date": "April 12,2021 at 10:20 am"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Slim Fit Jeans",
+        "brand": "Levi's",
+        "price": 65,
+        "oldPrice": 80,
+        "discount": "18% off",
+        "description": "Classic slim fit jeans with stretch for comfort and durability.",
+        "images": ["assets/img/product-5-1.jpg", "assets/img/product-5-2.jpg"],
+        "colors": ["#0000ff", "#708090"],
+        "sizes": ["28", "30", "32", "34", "36"],
+        "sku": "LEVIS-SLIMJEANS",
+        "tags": ["Clothing", "Jeans", "Denim"],
+        "availability": 12,
+        "additionalInfo": {
+            "Material": "99% Cotton, 1% Elastane",
+            "Fit": "Slim",
+            "Care": "Machine wash cold"
+        },
+        "reviews": [
+            {
+                "name": "David Beckham",
+                "avatar": "assets/img/avatar-9.jpg",
+                "rating": 5,
+                "comment": "Perfect fit and very comfortable.",
+                "date": "May 8,2021 at 6:30 pm"
+            },
+            {
+                "name": "Cristiano Ronaldo",
+                "avatar": "assets/img/avatar-10.jpg",
+                "rating": 4,
+                "comment": "Great jeans, but they run a bit long.",
+                "date": "May 15,2021 at 8:00 pm"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Wireless Earbuds",
+        "brand": "Apple",
+        "price": 199,
+        "oldPrice": 249,
+        "discount": "20% off",
+        "description": "True wireless earbuds with active noise cancellation and immersive sound.",
+        "images": ["assets/img/product-6-1.jpg", "assets/img/product-6-2.jpg"],
+        "colors": ["#ffffff"],
+        "sizes": ["One Size"],
+        "sku": "APPLE-AIRPODS",
+        "tags": ["Electronics", "Audio", "Earbuds"],
+        "availability": 20,
+        "additionalInfo": {
+            "Battery Life": "Up to 24 hours with charging case",
+            "Water Resistance": "IPX4",
+            "Connectivity": "Bluetooth 5.0"
+        },
+        "reviews": [
+            {
+                "name": "Steve Jobs",
+                "avatar": "assets/img/avatar-11.jpg",
+                "rating": 5,
+                "comment": "Amazing sound quality, perfect for everyday use.",
+                "date": "June 1,2021 at 3:50 pm"
+            },
+            {
+                "name": "Tim Cook",
+                "avatar": "assets/img/avatar-12.jpg",
+                "rating": 4
+            }]
+    }]
+
+

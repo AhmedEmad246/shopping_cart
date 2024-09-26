@@ -1,0 +1,3003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FLATICON ===============-->
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Ecommerce Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <div class="header-top">
+      <div class="header-container container">
+        <div class="header-contact">
+          <span>number</span>
+          <span>Our Location</span>
+
+        </div>
+        <p class="header-alert-news">
+          super value deals - save more with coupons
+        </p>
+        <a href="login-register.html" class="header-action">
+          Login/SignUp
+        </a>
+      </div>
+    </div>
+
+
+    <nav class=" nav container">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/img/logo.svg" alt="" class="nav-img">
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active-link">Home</a>
+          </li>
+
+
+
+
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link active-link"> Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="accounts.html" class="nav-link active-link">My Account</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="compare.html" class="nav-link active-link">Comapare</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="login-register.html" class="nav-link active-link">Login</a>
+          </li>
+        </ul>
+
+        <div class="header-search">
+          <input type="text" class="form-input" placeholder="search for items...">
+          <button class="search-btn">
+            <img src="assets/img/search.png" alt="">
+          </button>
+        </div>
+      </div>
+
+
+
+
+      <div class="header-user-action">
+        <a href="wishlist.html" class="header-action-btn">
+          <img src="assets/img/icon-heart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+
+        <a href="cart.html" class="header-action-btn">
+          <img src="assets/img/icon-cart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+      </div>
+    </nav>
+
+
+
+
+
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home-section1">
+      <div class="home-container container container-grid">
+        <div class="home-content">
+          <span class="home-subtitle">Hot Promotions</span>
+          <h1 class="home-title">Fashion Trending <br> <span> Great Collections</span></h1>
+          <p class="home-desc">save more with coupons & up to 20% off</p>
+          <a href="shop.html" class="btn">Shop Now</a>
+        </div>
+        <img src="assets/img/home-img.png" alt="" class="home-img">
+
+      </div>
+
+    </section>
+
+    <!--=============== CATEGORIES ===============-->
+    <section class="categories container-seciton2" style="margin-bottom: 2rem;">
+      <h3 class="section-title">
+        <span>Popular</span> Categories
+      </h3>
+      <div class="categories-container swiper">
+        <div class="swiper-wrapper">
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-1.jpg" alt="">
+
+            <h3 class="category-title">
+              T-shirt
+            </h3>
+          </a>
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-2.jpg" alt="">
+
+            <h3 class="category-title">
+              Bags
+            </h3>
+          </a>
+
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-3.jpg" alt="">
+
+            <h3 class="category-title">
+              Sandal
+            </h3>
+          </a>
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-4.jpg" alt="">
+
+            <h3 class="category-title">
+              Scarf Cap
+            </h3>
+          </a>
+
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-5.jpg" alt="">
+
+            <h3 class="category-title">
+              Shoes
+            </h3>
+          </a>
+
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-6.jpg" alt="">
+
+            <h3 class="category-title">
+              Pillowcase
+            </h3>
+          </a>
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-7.jpg" alt="">
+
+            <h3 class="category-title">
+              JumpSuit
+            </h3>
+          </a>
+
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="assets/img/category-8.jpg" alt="">
+
+            <h3 class="category-title">
+              Hats
+            </h3>
+          </a>
+        </div>
+
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!--=============== PRODUCTS ===============-->
+    <section class="product section container">
+      <div class="tab-btns">
+        <span class="tab-btn active-tab" data-target="#featured">Featured</span>
+        <span class="tab-btn" data-target="#popular">Popular </span>
+        <span class="tab-btn" data-target="#new-added">New added</span>
+      </div>
+
+      <div class="tab-items">
+        <div class="tab-item active-tab" content id="featured">
+          <div class="products-container grid">
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-1-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-1-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <button href="#" class="action-btn cart-btn" aria-label="Add To Cart" onclick="addToCart(item1)">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </button>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-2-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-2-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-green">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-3-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-3-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-orange">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-4-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-4-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-blue">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-5-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-5-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  -30%
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-6-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-6-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  -22%
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-7-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-7-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-green">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-8-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-8-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="tab-item" content id="popular">
+          <div class="products-container grid">
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-1-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-1-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-2-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-2-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-green">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-10-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-10-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-orange">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-4-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-4-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-blue">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-5-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-5-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  -30%
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-11-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-11-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  -22%
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-7-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-7-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-green">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-8-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-8-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="tab-item" content id="new-added">
+          <div class="products-container grid">
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-1-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-1-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-12-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-12-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-green">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-3-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-3-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-orange">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-13-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-13-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-blue">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-5-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-5-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  -30%
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-6-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-6-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-pink">
+                  -22%
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-9-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-9-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+                <div class="product-badge light-green">
+                  Hot
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <div class="product-banner">
+                <a href="details.html" class="product-imgs">
+                  <img src="assets/img/product-8-1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/img/product-8-2.jpg" alt="" class="product-img hover">
+
+                </a>
+                <div class="product-action">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <span class="material-symbols-outlined">
+                      visibility
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <span class="material-symbols-outlined">
+                      favorite
+                    </span>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Comapre">
+                    <span class="material-symbols-outlined">
+                      shuffle
+                    </span>
+                  </a>
+                </div>
+
+
+              </div>
+              <div class="product-content">
+                <span class="product-category">
+                  Clothing
+                </span>
+                <a href="details.html">
+                  <h3 class="product-title">
+                    colorful pattern shirts
+                  </h3>
+                </a>
+                <div class="product-rating">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </div>
+                <div class="product-price-flex">
+                  <span class="new-price">$238</span>
+                  <span class="old-price">$245</span>
+                </div>
+
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--=============== DEALS ===============-->
+    <section class="deals section">
+      <div class="deals-container container grid">
+        <div class="deals-item">
+          <div class="deals-group">
+            <h3 class="deals-brand">
+              deals of the day
+            </h3>
+            <span class="deals-category">limited quantities.</span>
+
+          </div>
+          <h4 class="deals-title">
+            summer collection new modern design
+          </h4>
+          <div class="deals-price flex">
+            <span class="new-price">139$</span>
+            <span class="old-price">160$</span>
+          </div>
+          <div class="deals-group">
+            <p class="deals-countdown-text">hurry up ! offer end in :</p>
+            <div class="countdown">
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  02
+                </p>
+                <span class="unit">Days</span>
+              </div>
+
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  22
+                </p>
+                <span class="unit">Hours</span>
+              </div>
+
+
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  57
+                </p>
+                <span class="unit">Mins</span>
+              </div>
+
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  24
+                </p>
+                <span class="unit">Sec</span>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="deals-btn">
+            <a href="details.html" class="btn btn-md">Shop now</a>
+          </div>
+        </div>
+
+        <div class="deals-item">
+          <div class="deals-group">
+            <h3 class="deals-brand">
+              women clothing
+            </h3>
+            <span class="deals-category">limited quantities.</span>
+
+          </div>
+          <h4 class="deals-title">
+            try something new in vacation
+          </h4>
+          <div class="deals-price flex">
+            <span class="new-price">139$</span>
+            <span class="old-price">160$</span>
+          </div>
+          <div class="deals-group">
+            <p class="deals-countdown-text">hurry up ! offer end in :</p>
+            <div class="countdown">
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  02
+                </p>
+                <span class="unit">Days</span>
+              </div>
+
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  22
+                </p>
+                <span class="unit">Hours</span>
+              </div>
+
+
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  57
+                </p>
+                <span class="unit">Mins</span>
+              </div>
+
+              <div class="countdown-amount">
+                <p class="countdown-period">
+                  24
+                </p>
+                <span class="unit">Sec</span>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="deals-btn">
+            <a href="details.html" class="btn btn-md">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== NEW ARRIVALS ===============-->
+    <section class="new-arrivals">
+      <h3 class="section-title">
+        <span>New</span> Arrivals
+      </h3>
+      <div class="new-container swiper">
+        <div class="swiper-wrapper">
+          <div class="product-item swiper-slide" >
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-1-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-1-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-pink">
+                Hot
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-item swiper-slide">
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-2-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-2-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-green">
+                Hot
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item swiper-slide">
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-10-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-10-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-orange">
+                Hot
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-item swiper-slide">
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-4-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-4-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-blue">
+                Hot
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item swiper-slide">
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-5-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-5-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-pink">
+                -30%
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-item swiper-slide">
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-11-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-11-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-pink">
+                -22%
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-item swiper-slide">
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-7-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-7-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+              <div class="product-badge light-green">
+                Hot
+              </div>
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item swiper-slide">
+
+
+            <div class="product-banner">
+              <a href="details.html" class="product-imgs">
+                <img src="assets/img/product-8-1.jpg" alt="" class="product-img default">
+
+                <img src="assets/img/product-8-2.jpg" alt="" class="product-img hover">
+
+              </a>
+              <div class="product-action">
+                <a href="#" class="action-btn" aria-label="Quick View">
+                  <span class="material-symbols-outlined">
+                    visibility
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                  </span>
+                </a>
+
+                <a href="#" class="action-btn" aria-label="Comapre">
+                  <span class="material-symbols-outlined">
+                    shuffle
+                  </span>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="product-content">
+              <span class="product-category">
+                Clothing
+              </span>
+              <a href="details.html">
+                <h3 class="product-title">
+                  colorful pattern shirts
+                </h3>
+              </a>
+              <div class="product-rating">
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+                <span class="material-symbols-outlined">
+                  star
+                </span>
+              </div>
+              <div class="product-price-flex">
+                <span class="new-price">$238</span>
+                <span class="old-price">$245</span>
+              </div>
+
+              <a href="#" class="action-btn cart-btn" aria-label="Add To Cart">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </a>
+            </div>
+          </
+        </div>
+          </div>
+        </div>
+        
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!--=============== SHOWCASE ===============-->
+    <section class="showcase section">
+      <div class="showcase-container container grid">
+        <div class="showcase-wrapper">
+          <h3 class="section-title">
+            Hot Release
+          </h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-2.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Ruffled Solid Long Sleeve Blouse
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-3.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Multi-color Print  V-neck T-shirt
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-1.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Floral Print Casual Cotton  
+                  Dress
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="showcase-wrapper">
+          <h3 class="section-title">
+          Deals & Outlet
+          </h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-4.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                 Fish  print patched T-Shirt
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-5.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Vintage Floral Print Dress
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-6.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Multi-color Stripe Circle T-shirt
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-wrapper">
+          <h3 class="section-title">
+          Top Selling
+          </h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-7.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Geometric Printed Long Sleeve Blouse
+                  </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-8.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Print patchwork  Maxi Dress
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-9.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Daisy  Floral Print Straps JumpSuit
+                  </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-wrapper">
+          <h3 class="section-title">
+            Trendy
+          </h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-2.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Ruffled Solid Long Sleeve Blouse
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-3.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Multi-color Print  V-neck T-shirt
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+            <img src="assets/img/showcase-img-1.jpg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">
+                  Floral Print Casual Cotton  
+                  Dress
+                </h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">238$</span>
+                <span class="old-price">245$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter home-newsletter">
+      <div class="newsletter-container container grid">
+        
+        <h3 class="newsletter-title flex">
+          <img src="assets/img/icon-email.svg" alt="" class="newsletter-icon">
+
+          Sign Up to Newsletter
+        </h3>
+        <p class="newsletter-desc">
+          ...and recieve $25 coupon for first shopping.
+        </p>
+        <form action="" class="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your Email">
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <div class="footer-container container grid ">
+        <div class="footer-content">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/img/logo.svg" alt="" class="footer-logo-img">
+          </a>
+
+          <h4 class="footer-subtitle">
+            Contact
+          </h4>
+          <p class="footer-desc">
+           <span> Address:</span> 562 Wellignton Road ,Street 32 , San Francisco
+          </p>
+
+          <p class="footer-desc">
+            <span> Phone:</span> +01 2222 365 /(+91) 01 2345 6789
+           </p>
+
+           <p class="footer-desc">
+            <span>Hours:</span> 10:00 - 17:00 ,Mon - Sat
+           </p>
+
+           <div class="footer-social">
+            <h4 class="footer-subtitle">
+              Follow Me
+            </h4>
+            <div class="footer-social-links">
+              <a href="#">
+                <img src="assets/img/icon-facebook.svg" alt="" class="footer-social-icon">
+              </a>
+
+
+              <a href="#">
+                <img src="assets/img/icon-twitter.svg" alt="" class="footer-social-icon">
+              </a>
+
+
+              <a href="#">
+                <img src="assets/img/icon-instagram.svg" alt="" class="footer-social-icon">
+              </a>
+
+
+              <a href="#">
+                <img src="assets/img/icon-pinterest.svg" alt="" class="footer-social-icon">
+              </a>
+
+
+              <a href="#">
+                <img src="assets/img/icon-youtube.svg" alt="" class="footer-social-icon">
+              </a>
+            </div>
+           </div>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">
+            Address
+          </h3>
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">About Us</a></li>
+            <li><a href="" class="footer-link">Delivery Information </a></li>
+            <li><a href="" class="footer-link">Privacy Policy</a></li>
+            <li><a href="" class="footer-link">Terms & conditions</a></li>
+            <li><a href="" class="footer-link">Contact us</a></li>
+            <li><a href="" class="footer-link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">
+           My Account
+          </h3>
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Sign up</a></li>
+            <li><a href="" class="footer-link"> view cart </a></li>
+            <li><a href="" class="footer-link">My Wishlist</a></li>
+            <li><a href="" class="footer-link">Track My Order</a></li>
+            <li><a href="" class="footer-link">Help</a></li>
+            <li><a href="" class="footer-link">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="fooer-content">
+          <h3 class="footer-title">
+            Secured payment Gateways
+          </h3>
+          <img src="assets/img/payment-method.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2024 Evara. All rights reserved </p>
+      <span class="designer">Desgined by Ahmed Emad</span>
+    </div>
+  </footer>
+  <div id="title"></div>
+
+  <!--===============  SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="main.js">
+      
+  </script>
+</body>
+
+</html>
